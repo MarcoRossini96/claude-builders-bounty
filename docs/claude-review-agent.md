@@ -30,3 +30,11 @@ The generated review comments are stored in:
 
 - `samples/vercel-next-93553-review.md`
 - `samples/vercel-next-93260-review.md`
+
+## Validation
+
+```bash
+npm run check
+```
+
+This command runs unit tests, generates a fixture-based review, and verifies the diff with `git diff --check`.

@@ -48,6 +48,12 @@ The CLI returns a structured Markdown review with summary, risks, suggestions, a
 
 Sample outputs from real GitHub PRs are included in [samples/](samples/).
 
+Additional submission evidence:
+
+- Claude Code sub-agent: [.claude/agents/pr-reviewer.md](.claude/agents/pr-reviewer.md)
+- Optional GitHub Action workflow: [.github/workflows/claude-review.yml](.github/workflows/claude-review.yml)
+- Acceptance proof map: [PROOF.md](PROOF.md)
+
 ---
 
 ## Rules
