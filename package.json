@@ -1,0 +1,16 @@
+{
+  "name": "claude-pr-review-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "claude-review": "./bin/claude-review.js"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "review:sample": "node bin/claude-review.js --diff tests/fixtures/sample-pr.diff"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

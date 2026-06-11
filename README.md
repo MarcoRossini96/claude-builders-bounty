@@ -34,6 +34,22 @@ You're in the right place.
 
 ---
 
+## Claude PR Review Agent
+
+This repository includes a CLI implementation for bounty #4.
+
+```bash
+npm test
+node bin/claude-review.js --diff tests/fixtures/sample-pr.diff
+node bin/claude-review.js --pr https://github.com/owner/repo/pull/123
+```
+
+The CLI returns a structured Markdown review with summary, risks, suggestions, and confidence score. See [docs/claude-review-agent.md](docs/claude-review-agent.md).
+
+Sample outputs from real GitHub PRs are included in [samples/](samples/).
+
+---
+
 ## Rules
 
 - Tasks must be related to Claude Code or AI tooling
